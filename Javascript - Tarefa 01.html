@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Digite Dois Números</title>
+
+    <script>    
+    function calculo_numeros() {
+        var numero1 = parseFloat(prompt("Digite o primeiro número a ser calculado"));
+        var numero2 = parseFloat(prompt("Digite o segundo número a ser calculado"));
+
+        var soma = numero1 + numero2;
+        alert("A soma dos valores é " + soma);
+
+        var subtracao = numero1 - numero2;
+        alert("A subtração dos valores é " + subtracao);
+
+        var multiplicacao = numero1 * numero2;
+        alert("A multiplicação dos valores é " + multiplicacao);
+
+        var divisão = numero1 / numero2;
+        alert("A divisão dos valores é " + divisão);
+    }
+    </script>
+</head>
+
+<body>
+    <h1>Javascript - Tarefa 01</h1>
+    <button onclick="calculo_numeros();">Clique aqui para calcular</button>
+</body>
+</html>
